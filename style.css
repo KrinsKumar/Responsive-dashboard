@@ -250,11 +250,32 @@ main .insights > div {
     border-radius: var(--card-border-radius);
     margin-top: 1rem;
     box-shadow: var(--box-shadow);
-    width: 200px;
+    transition: all 30ms ease;
 }
 
 main .insights > div:hover{
     box-shadow: none;
+}
+
+main .insights > div span {
+    background: coral;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-white);
+}
+
+main .insights > div.expenses span{
+    background: var(--color-danger);
+}
+
+main .insights > div.income span{
+    background: var(--color-success);
+}
+
+main .insights > div .middle {
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
 }
 
 
