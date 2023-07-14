@@ -1,3 +1,3 @@
-# Responsive Dashboad made of with no frameworks.
-This is not yet completed and the numbers used in the website are static.
-Link - https://krinskumar.github.io/Responsive-dashboard/
+# Responsive Dashboad.
+
+A dashboard made with no frameworks or libraries which supports light and dark mode. Main goal was to improve my vanilla skills in front end development.
